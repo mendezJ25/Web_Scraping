@@ -55,4 +55,4 @@ print(apellido)
 print(email)
 
 df = pandas.DataFrame({'Nombres':nombres,'Apellido':apellido,'Email':email})
-df.to_csv('pacientes.cvs', index=False, encoding='utf-8')
+df.to_csv('pacientes.csv', index=False, encoding='utf-8')
